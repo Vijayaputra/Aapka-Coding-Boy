@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+nav bar-->
+  <section>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="../index.html"><img src="../images/ACB1.PNG" height="" width="60px">AAPKA CODING
+        BOY</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">ABOUT</a>
+          </li>
+          <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"> Tutorial
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a href="#" class="nav-link"> HTML </a></li>
+              <li><a href="#" class="nav-link"> CSS </a></li>
+              <li><a href="#" class="nav-link"> BOOSTRAP </a></li>
+            </ul>
+            <!-- <li class="nav-item">
+        <a class="nav-link" href="gallary.html">GALLARY</a>
+      </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../myteam.html">MY TEAM</a>
+          </li>
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 services.html">SERVICES</a>
+      </li> -->
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 contact us.html">CONTACT US</a>
+      </li> -->
+        </ul>
+        <!--  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn d-block btn-success d-md-none mt-2" type="submit">Search</button>
+    <button class="btn btn-success d-md-block d-none" type="submit">Search</button>
+    </form> -->
+      </div>
+    </nav>
+  </section>
+  <!--
+end nav bar-->
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-12 text-center mt-5 p-2 fixed-top">
+          <a href="html_heading.html"><button type="button" class="btn btn-success">Previous</button></a>
+          <button type="button" class="btn btn-primary dropdown-toggle m-2" data-toggle="dropdown">
+            HTML
+          </button>
+          <a href="html_marquee.html"><button type="button" class="btn btn-success">Next</button></a>
+          <div class="dropdown-menu">
+             <a class="dropdown-item" href="../htmlindex.html">HTML About</a>
+            <a class="dropdown-item" href="html_basictags.html">HTML Basic Tags</a>
+            <a class="dropdown-item" href="html_heading.html">HTML Heading Level</a>
+            <a class="dropdown-item" href="html_paragraph.html">HTML Paragraph</a>
+            <a class="dropdown-item" href="html_marquee.html">HTML Marquee</a>
+            <a class="dropdown-item" href="html_anchor.html">HTML Anchor</a>
+            <a class="dropdown-item" href="html_list.html">HTML List</a>
+            <a class="dropdown-item" href="html_table.html">HTML Table</a>
+            <a class="dropdown-item" href="html_style.html">HTML Style</a>
+            <a class="dropdown-item" href="html_block_&_inline.html">HTML Block & Inline</a>
+            <a class="dropdown-item" href="html/html_css.html">HTML Css</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-5">
+          <h3 class="text-center mt-5">Paragraph</h3>
+          <h3 class="text-warning">Paragraph</h3>
+          <ul>
+            <li>A paragraph always starts on a new line, and is usually a block of text.</li>
+            <li>The HTML &lt;p&gt; element defines a paragraph.</li>
+            <li>A paragraph always starts on a new line, and browsers automatically add some white space (a margin)
+              before and after a paragraph.</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text-warning">Example</h4>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+                <li>&lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+                <li>&lt;p&gt;This is a paragraph.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <p>This is a paragraph.</p>
+              <p>This is a paragraph.</p>
+              <p>This is a paragraph.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h4>HTML Display</h4>
+          <ul>
+            <li>You cannot be sure how HTML will be displayed.</li>
+            <li>Large or small screens, and resized windows will create different results.</li>
+            <li>With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.</li>
+            <li>The browser will automatically remove any extra spaces and lines when the page is displayed:</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3>Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+
+                <li>&lt;p&gt;
+                  This paragraph
+                  contains a lot of lines
+                  in the source code,
+                  but the browser
+                  ignores it.
+                  &lt;/p&gt;</li><br>
+
+                <li>&lt;p&gt;
+                  This paragraph
+                  contains a lot of spaces
+                  in the source code,
+                  but the browser
+                  ignores it.
+                  &lt;/p&gt;</li><br>
+
+                <li>&lt;p&gt;
+                  The number of lines in a paragraph depends on the size of the browser window. If you resize the
+                  browser window, the number of lines in this paragraph will change.
+                  &lt;/p&gt;</li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h4 class="text-warning">OUTPUT</h4>
+              <p>
+                This paragraph
+                contains a lot of lines
+                in the source code,
+                but the browser
+                ignores it.
+              </p>
+
+              <p>
+                This paragraph
+                contains a lot of spaces
+                in the source code,
+                but the browser
+                ignores it.
+              </p>
+
+              <p>
+                The number of lines in a paragraph depends on the size of the browser window. If you resize the browser
+                window, the number of lines in this paragraph will change.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">HTML Horizontal Rules</h3>
+          <ul>
+            <li>The &lt;hr&gt; tag defines a thematic break in an HTML page, and is most often displayed as a horizontal
+              rule.</li>
+            <li>The &lt;hr&gt; element is used to separate content (or define a change) in an HTML page:</li>
+          </ul>
+          <div class="card">
+            <div class="card-header">Example</div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+
+                <li>&lt;h1&gt;This is heading 1&lt;/h1&gt;</li>
+                <li>&lt;p&gt;This is some text.&lt;/p&gt;</li>
+                <li>&lt;hr&gt;</li><br>
+
+                <li>&lt;h2&gt;This is heading 2&lt;/h2&gt;</li>
+                <li>&lt;p&gt;This is some other text.&lt;/p&gt;</li>
+                <li>&lt;hr&gt;</li><br>
+
+                <li>&lt;h2&gt;This is heading 2&lt;/h2&gt;</li>
+                &lt;p&gt;This is some other text.&lt;/p&gt;</li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h1>This is heading 1</h1>
+              <p>This is some text.</p>
+              <hr>
+
+              <h2>This is heading 2</h2>
+              <p>This is some other text.</p>
+              <hr>
+
+              <h2>This is heading 2</h2>
+              <p>This is some other text.</p>
+
+            </div>
+            <div class="col-md-12 col-12 border rounded">
+              <b>The &lt;hr&gt; tag is an empty tag, which means that it has no end tag.</b>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3>HTML Line Breaks</h3>
+          <ul>
+            <li>The HTML &lt;br&gt; element defines a line break.</li>
+            <li>Use &lt;br&gt; if you want a line break (a new line) without starting a new paragraph:</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example</div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p&gt;This is&lt;br&gt;a paragraph&lt;br&gt;with line breaks.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <p>This is<br>a paragraph<br>with line breaks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 border rounded">
+          <b>The &gt;br&gt; tag is an empty tag, which means that it has no end tag.</b>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3>The Poem Problem</h3>
+          <ul>
+            <li>This poem will display on a single line:</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12 p-4">
+          <div class="card">
+            <div class="card-header">Example</div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p&gt;
+                  My Bonnie lies over the ocean.<br><br>
+
+                  My Bonnie lies over the sea.<br><br>
+
+                  My Bonnie lies over the ocean.<br><br>
+
+                  Oh, bring back my Bonnie to me.<br><br>
+                  &lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <p>
+                My Bonnie lies over the ocean.
+
+                My Bonnie lies over the sea.
+
+                My Bonnie lies over the ocean.
+
+                Oh, bring back my Bonnie to me.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 p-4">
+          <h3 class="text-warning">Solution - The HTML &lt;pre&gt; Element</h3>
+          <ul>
+            <li>The HTML &lt;pre&gt; element defines preformatted text.</li>
+
+            <li>The text inside a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it
+              preserves both spaces and line breaks:</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example</div>
+            <div class="card-body bg-dark text-light">
+              <ul list-style type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p&gt;The pre tag preserves both spaces and line breaks:&lt;/p&gt;</li>
+
+                <li>&lt;pre&gt;</li>
+                <li>My Bonnie lies over the ocean.</li><br>
+
+                <li> My Bonnie lies over the sea.</li><br>
+
+                <li>My Bonnie lies over the ocean.</li><br>
+
+                <li>Oh, bring back my Bonnie to me.</li>
+                <li>&lt;/pre&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <pre>
+My Bonnie lies over the ocean.
+
+My Bonnie lies over the sea.
+
+My Bonnie lies over the ocean.
+
+Oh, bring back my Bonnie to me.
+</pre>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

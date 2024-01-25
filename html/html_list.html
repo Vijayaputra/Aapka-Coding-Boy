@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+nav bar-->
+  <section>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="../index.html"><img src="../images/ACB1.PNG" height="" width="60px">AAPKA CODING
+        BOY</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">ABOUT</a>
+          </li>
+          <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"> Tutorial
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a href="#" class="nav-link"> HTML </a></li>
+              <li><a href="#" class="nav-link"> CSS </a></li>
+              <li><a href="#" class="nav-link"> BOOSTRAP </a></li>
+            </ul>
+            <!-- <li class="nav-item">
+        <a class="nav-link" href="gallary.html">GALLARY</a>
+      </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../myteam.html">MY TEAM</a>
+          </li>
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 services.html">SERVICES</a>
+      </li> -->
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 contact us.html">CONTACT US</a>
+      </li> -->
+        </ul>
+        <!--  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn d-block btn-success d-md-none mt-2" type="submit">Search</button>
+    <button class="btn btn-success d-md-block d-none" type="submit">Search</button>
+    </form> -->
+      </div>
+    </nav>
+  </section>
+  <!--
+end nav bar-->
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-12 text-center mt-5 p-2 fixed-top">
+          <a href="html_image.html"><button type="button" class="btn btn-success">Previous</button></a>
+          <button type="button" class="btn btn-primary dropdown-toggle m-2" data-toggle="dropdown">
+            HTML
+          </button>
+          <a href="html_table.html"><button type="button" class="btn btn-success">Next</button></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../htmlindex.html">HTML About</a>
+            <a class="dropdown-item" href="html_basictags.html">HTML Basic Tags</a>
+            <a class="dropdown-item" href="html_heading.html">HTML Heading Level</a>
+            <a class="dropdown-item" href="html_paragraph.html">HTML Paragraph</a>
+            <a class="dropdown-item" href="html_marquee.html">HTML Marquee</a>
+            <a class="dropdown-item" href="html_anchor.html">HTML Anchor</a>
+            <a class="dropdown-item" href="html_list.html">HTML List</a>
+            <a class="dropdown-item" href="html_table.html">HTML Table</a>
+            <a class="dropdown-item" href="html_style.html">HTML Style</a>
+            <a class="dropdown-item" href="html_block_&_inline.html">HTML Block & Inline</a>
+            <a class="dropdown-item" href="html/html_css.html">HTML Css</a>
+          </div>
+          
+        </div>
+        <div class="col-md-12 col-12 mt-5">
+        <h3 class="text-center mt-5"> HTML LIST</h3>
+        <h3 class="text-warning ">LIST</h3>
+        <p class="ml-5">HTML lists allow web developers to group a set of related items in lists.</p>
+      </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+
+                <li>&lt;h2&gt;An Unordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ul&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ul&gt; </li><br>
+
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Unordered HTML List</h2>
+
+              <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+
+              <h2>An Ordered HTML List</h2>
+
+              <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">ORDER LIST</h3>
+          <ul>
+            <li>An ordered list starts with the &lt;ol&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+            <li>The list items will be marked with numbers by default:</li>
+            <li><B>TYPE-</B><br>1.type="1" (default)<br>2.type="A"<br>3.type="a"<br>4.type="I"<br>5.type="i"</li>
+            <li><b>Attributes-</b><br>1.start eg.start="10"<br>2.reversed (optional)<br>3.type</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example 1</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol start="5"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Ordered HTML List</h2>
+
+              <ol start="5">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 2</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol type="A"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Ordered HTML List</h2>
+
+              <ol type="A">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 3</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol type="a"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Ordered HTML List</h2>
+
+              <ol type="a">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 4</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol type="I"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Ordered HTML List</h2>
+
+              <ol type="I">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 5</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Ordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ol type="i"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ol&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Ordered HTML List</h2>
+
+              <ol type="i" reversed>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">UNORDER LIST</h3>
+          <ul>
+            <li>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</li>
+            <li>The list items will be marked with bullets (small black circles) by default:</li>
+            <li><B>TYPE-</B><br>1.type="disc" (default)<br>2.type="square"<br>3.type="circle"<br>4.type="none"</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example 1</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Unordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ul&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ul&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Unordered HTML List</h2>
+
+              <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 2</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Unordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ul type="square"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ul&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Unordered HTML List</h2>
+
+              <ul type="square">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 3</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Unordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ul type="circler"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ul&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Unordered HTML List</h2>
+
+              <ul type="circle">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">Example 4</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;An Unordered HTML List&lt;/h2&gt;</li><br>
+
+                <li>&lt;ul type="none"&gt;</li>
+                <li>&lt;li&gt;Coffee&lt;/li&gt;</li>
+                <li>&lt;li&gt;Tea&lt;/li&gt;</li>
+                <li>&lt;li&gt;Milk&lt;/li&gt;</li>
+                <li>&lt;/ul&gt; </li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>An Unordered HTML List</h2>
+
+              <ul type="none">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">DEFINATION LIST</h3>
+          <ul>
+            <li>An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.HTML
+              also supports defination lists.</li>
+            <li>A defination list is a list of terms, with a defination of each term.</li>
+            <li>The &lt;dl&gt; tag defines the defination list, the &lt;dt&gt; tag defines the term (name), and the
+              &lt;dd&gt; tag describes each term:</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">Example 1</div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;A defination List&lt;/h2&gt;</li><br>
+
+                <li>&lt;dl&gt;</li>
+                <li>&lt;dt&gt;Coffee&lt;/dt&gt;</li>
+                <li>&lt;dd&gt;- black hot drink&lt;/dd&gt;</li>
+                <li>&lt;dt&gt;Milk&lt;/dt&gt;</li>
+                <li>&lt;dd&gt;- white cold drink&lt;/dd&gt;</li>
+                <li>&lt;/dl&gt;</li><br>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>A defination List</h2>
+
+              <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 mt-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-warning">NESTED LIST</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li><br>
+                <li>&lt;h2&gt;Nested List&lt;/h2&gt;</li><br>
+                <li>&lt;ol&gt;</li>
+                <li>&lt;li&gt;FRONTEND&lt;/li&gt;</li>
+                <li>&lt;ul&gt;</li>
+                <li>&lt;li&gt;HTML&lt;/li&gt;</li>
+                <li>&lt;li&gt;CSS&lt;/li&gt;</li>
+                <li>&lt;li&gt;JAVASCRIPT&lt;/li&gt;</li>
+                <li>&lt;li&gt;JQUERY&lt;/li&gt;</li>
+                <li>&lt;li&gt;JASON&lt;/li&gt;</li>
+                <li>&lt;li&gt;AJAX&lt;/li&gt;</li>
+                <li>&lt;/ul&gt;</li>
+                <li>&lt;li&gt;BACKEND&lt;/li&gt;</li>
+                <li>&lt;ul&gt;</li>
+                <li>&lt;li&gt;JAVA&lt;/li&gt;</li>
+                <li>&lt;li&gt;PYTHON&lt;/li&gt;</li>
+                <li>&lt;li&gt;PHP&lt;/li&gt;</li>
+                <li>&lt;li&gt;NODE JS&lt;/li&gt;</li>
+                <li>&lt;li&gt;EXPRESS JS&lt;/li&gt;</li>
+                <li>&lt;/ul&gt;</li>
+                <li>&lt;li&gt;DATABASE&lt;/li&gt;</li>
+                <li>&lt;dl&gt;</li>
+                <li>&lt;dt&gt;SQL&lt;/dt&gt;</li>
+                <li>&lt;dd&gt;Structured Query Language&lt;/dd&gt;</li>
+                <li>&lt;dt&gt;MYSQL&lt;/dt&gt;</li>
+                <li>&lt;dd&gt;My Structured Query Language&lt;/dd&gt;</li>
+                <li>&lt;dt&gt;MONGODB&lt;/dt&gt;</li>
+                <li>&lt;dd&gt;No Sql Database&lt;/dd&gt;</li>
+                <li>&lt;/dl&gt;</li>
+                <li>&lt;/ol&gt;</li>
+
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>Nested List</h2>
+
+              <ol>
+                <li>FRONTEND</li>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JAVASCRIPT</li>
+                  <li>JQUERY</li>
+                  <li>JASON</li>
+                  <li>AJAX</li>
+                </ul>
+                <li>BACKEND</li>
+                <ul>
+                  <li>JAVA</li>
+                  <li>PYTHON</li>
+                  <li>PHP</li>
+                  <li>NODE JS</li>
+                  <li>EXPRESS JS</li>
+                </ul>
+                <li>DATABASE</li>
+                <dl>
+                  <dt>SQL</dt>
+                  <dd>Structured Query Language</dd>
+                  <dt>MYSQL</dt>
+                  <dd>My Structured Query Language</dd>
+                  <dt>MONGODB</dt>
+                  <dd>No Sql Database</dd>
+                </dl>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

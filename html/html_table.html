@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+nav bar-->
+  <section>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="../index.html"><img src="../images/ACB1.PNG" height="" width="60px">AAPKA CODING
+        BOY</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">ABOUT</a>
+          </li>
+          <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"> Tutorial
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a href="#" class="nav-link"> HTML </a></li>
+              <li><a href="#" class="nav-link"> CSS </a></li>
+              <li><a href="#" class="nav-link"> BOOSTRAP </a></li>
+            </ul>
+            <!-- <li class="nav-item">
+        <a class="nav-link" href="gallary.html">GALLARY</a>
+      </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../myteam.html">MY TEAM</a>
+          </li>
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 services.html">SERVICES</a>
+      </li> -->
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 contact us.html">CONTACT US</a>
+      </li> -->
+        </ul>
+        <!--  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn d-block btn-success d-md-none mt-2" type="submit">Search</button>
+    <button class="btn btn-success d-md-block d-none" type="submit">Search</button>
+    </form> -->
+      </div>
+    </nav>
+  </section>
+  <!--
+end nav bar-->
+
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-12 text-center fixed-top mt-5 p-2">
+          <a href="html_list.html"><button type="button" class="btn btn-success">Previous</button></a>
+          <button type="button" class="btn btn-primary dropdown-toggle m-2" data-toggle="dropdown">
+            HTML
+          </button>
+          <a href="html_style.html"><button type="button" class="btn btn-success">Next</button></a>
+          <div class="dropdown-menu">
+           <a class="dropdown-item" href="../htmlindex.html">HTML About</a>
+            <a class="dropdown-item" href="html_basictags.html">HTML Basic Tags</a>
+            <a class="dropdown-item" href="html_heading.html">HTML Heading Level</a>
+            <a class="dropdown-item" href="html_paragraph.html">HTML Paragraph</a>
+            <a class="dropdown-item" href="html_marquee.html">HTML Marquee</a>
+            <a class="dropdown-item" href="html_anchor.html">HTML Anchor</a>
+            <a class="dropdown-item" href="html_list.html">HTML List</a>
+            <a class="dropdown-item" href="html_table.html">HTML Table</a>
+            <a class="dropdown-item" href="html_style.html">HTML Style</a>
+            <a class="dropdown-item" href="html_block_&_inline.html">HTML Block & Inline</a>
+            <a class="dropdown-item" href="html/html_css.html">HTML Css</a>
+          </div>
+          
+        </div>
+        <div class="col-md-12 col-12 mt-5">
+          <h3 class="text-center d-block mt-5">HTML TABLE</h3>
+          <h3 class="text-warning">Table</h3>
+          <ul>
+            <li>HTML tables allow web developers to arrange data into rows and columns.</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Simple Table Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;meta charset="utf-8"&gt;</li>
+                <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</li>
+                <li>&lt;title&gt;&lt;/title&gt;</li>
+                <li>&lt;/head&gt;</li>
+                <li>&lt;body&gt;</li>
+                <li>&lt;h2&gt;simple table&lt;/h2&gt;</li>
+                <li>&lt;table border="4px"&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Emil&lt;/td&gt;</li>
+                <li>&lt;td&gt;Tobias&lt;/td&gt;</li>
+                <li>&lt;td&gt;Linus&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;16&lt;/td&gt;</li>
+                <li>&lt;td&gt;14&lt;/td&gt;</li>
+                <li>&lt;td&gt;10&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>Siumple table</h2>
+
+              <table border="4px">
+                <tr>
+                  <td>Emil</td>
+                  <td>Tobias</td>
+                  <td>Linus</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>10</td>
+                </tr>
+              </table>
+              <h4>Explain</h4>
+              <ul>
+                <li>&lt;table&gt; tag define a table.</li>
+                <li>&lt;tr&gt; tag create the table row.</li>
+                <li>&lt;td&gt; tag define the table data.</li>
+                <span class="text-danger">
+                  <li>eg.
+                  <li>&lt;table border="4px"&gt;<br>
+                </span>
+                <span class="text-warning">&lt;tr&gt;<br></span>
+                <span class="text-success">&lt;td&gt;16&lt;/td&gt;<br>
+                  &lt;td&gt;14&lt;/td&gt;<br>
+                  &lt;td&gt;10&lt;/td&gt;<br>
+                  <span class="text-warning">&lt;/tr&gt;<br></span>
+                  <span class="text-danger">&lt;/table&gt;</span></li>
+              </ul>
+              <h5>OUTPUT</h5>
+              <table border="4px" bordercolor=red bgcolor="orange" style="color:green;">
+                <tr>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>10</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">
+            Table Cells
+          </h3>
+          <ul>
+            <li>Each table cell is defined by a &lt;td&gt; and a &lt;/td&gt; tag.</li>
+            <li>td stands for table data.</li>
+            <li>Everything between &lt;td&gt; and &lt;/td&gt; are the content of the table cell.</li>
+          </ul>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;style&gt;</li>
+                table, th, td {
+                border:1px solid black;</li>
+                }
+                <li>&lt;/style&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;h2&gt;TD elements define table cells&lt;/h2&gt;</li>
+
+                <li>&lt;table&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Emil&lt;/td&gt;</li>
+                <li>&lt;td&gt;Tobias&lt;/td&gt;</li>
+                <li>&lt;td&gt;Linus&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+
+                <li>&lt;p&gt;To understand the example better, we have added borders to the table.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <h2>TD elements define table cells</h2>
+
+              <table style="width:100%;border:4px solid black;text-align: center;">
+                <tr style="border:1px solid black;">
+                  <td style="border:1px solid black;">Emil</td>
+                  <td style="border:1px solid black;">Tobias</td>
+                  <td style="border:1px solid black;">Linus</td>
+                </tr>
+              </table>
+
+              <p>To understand the example better, we have added borders to the table.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-12">
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Table Rows</h3>
+              <ul>
+                <li>Each table row starts with a &lt;tr&gt; and ends with a &lt;/tr&gt; tag.</li>
+                <li>tr stands for table row.</li>
+                <h3 class="text-warning">Example</h3>
+              </ul>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;style&gt;</li>
+                table, th, td {<br>
+                border:1px solid black;</li><br>
+                }
+                <li>&lt;/style&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;h2&gt;TR elements define table rows&lt;/h2&gt;</li>
+
+                <li>&lt;table style="width:100%"&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Emil&lt;/td&gt;</li>
+                <li>&lt;td&gt;Tobias&lt;/td&gt;</li>
+                <li>&lt;td&gt;Linus&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;16&lt;/td&gt;</li>
+                <li>&lt;td&gt;14&lt;/td&gt;</li>
+                <li>&lt;td&gt;10&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+
+                <li>&lt;p&gt;To understand the example better, we have added borders to the table.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+
+              <h2>TR elements define table rows</h2>
+
+              <table style="width:100%;border:4px solid black;" border="4px">
+                <tr>
+                  <td>Emil</td>
+                  <td>Tobias</td>
+                  <td>Linus</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>10</td>
+                </tr>
+              </table>
+
+              <p>To understand the example better, we have added borders to the table.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-12">
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Table Header</h3>
+              <ul>
+                <li>Sometimes you want your cells to be table header cells. In those cases use the &lt;th&gt; tag
+                  instead of the &lt;td&gt; tag:</li>
+                <li>th stands for table header.</li>
+                <h3 class="text-warning">Example</h3>
+              </ul>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;style&gt;</li>
+                table, th, td {
+                border:1px solid black;</li>
+                }
+                <li>&lt;/style&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;h2&gt;TH elements define table headers&lt;/h2&gt;</li>
+
+                <li>&lt;table style="width:100%"&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th&gt;Person 1&lt;/th&gt;</li>
+                <li>&lt;th&gt;Person 2&lt;/th&gt;</li>
+                <li>&lt;th&gt;Person 3&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Emil&lt;/td&gt;</li>
+                <li>&lt;td&gt;Tobias&lt;/td&gt;</li>
+                <li>&lt;td&gt;Linus&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;16&lt;/td&gt;</li>
+                <li>&lt;td&gt;14&lt;/td&gt;</li>
+                <li>&lt;td&gt;10&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;</li>
+
+                <li>&lt;p&gt;To understand the example better, we have added borders to the table.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+
+              <h2>TH elements define table headers</h2>
+
+              <table style="width:100%" border="4px">
+                <tr>
+                  <th>Person 1</th>
+                  <th>Person 2</th>
+                  <th>Person 3</th>
+                </tr>
+                <tr>
+                  <td>Emil</td>
+                  <td>Tobias</td>
+                  <td>Linus</td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>14</td>
+                  <td>10</td>
+                </tr>
+              </table>
+
+              <p>To understand the example better, we have added borders to the table.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">Rowspan</h3>
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html lang="en"&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;meta charset="UTF-8" /&gt;</li>
+
+                <li>&lt;title&gt;&lt;/title&gt;</li>
+                <li>&lt;/head&gt;</li>
+                <li>&lt;body&gt;</li>
+                <li>&lt;table border="2" borderColor="black"&gt;</li>
+                <li>&lt;thead&gt;</li>
+                <li>&lt;tr bgcolor="yellow"&gt;</li>
+                <li>&lt;th&gt;Build&lt;/th&gt;</li>
+                <li>&lt;th&gt;Table name&lt;/th&gt;</li>
+                <li>&lt;th&gt;Queries&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/thead&gt;</li>
+                <li>&lt;tbody&gt;</li>
+                <li>&lt;tr align="center"&gt;</li>
+                <li>&lt;th rowspan="4"&gt;Build&lt;br /&gt;Name&lt;/br&gt;1&lt;/th&gt;</li>
+                <li>&lt;th rowspan="2"&gt;Table&lt;br/&gt; Name&lt;br/&gt; 1&lt;/th&gt;</li>
+                <li>&lt;th rowspan="1"&gt; Query 1&lt;/th&gt;</li>
+
+                <li>&lt;/tr&gt;</li>
+
+                <li>&lt;tr align="center"&gt;</li>
+                <li>&lt;th&gt;Query 2&lt;/th&gt;</li>
+
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr align="center"&gt;</li>
+                <li>&lt;th rowspan="2"&gt;Table&lt;br/&gt;Name&lt;/br&gt;2&lt;/th&gt;</li>
+                <li>&lt;th&gt;Query 1&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr align="center"&gt;</li>
+                <li>&lt;th&gt;Query 2&lt;/th&gt;</li>
+
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/tbody&gt;</li>
+                <li>&lt;/table&gt;</li>
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <table border="2" borderColor="black">
+                <thead>
+                  <tr bgcolor="yellow">
+                    <th>Build</th>
+                    <th>Table name</th>
+                    <th>Queries</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr align="center">
+                    <th rowspan="4">Build Name 1</th>
+                    <th rowspan="2">Table Name 1</th>
+                    <th rowspan="1"> Query 1</th>
+                  </tr>
+                  <tr align="center">
+                    <th>Query 2</th>
+                  </tr>
+                  <tr align="center">
+                    <th rowspan="2">Table Name 2</th>
+                    <th>Query 1</th>
+                  </tr>
+                  <tr align="center">
+                    <th>Query 2</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">Collspan</h3>
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Example 1</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;title&gt;&lt;/title&gt;</li>
+                <li>&lt;/head&gt;</li>
+                <li>&lt;body&gt;</li>
+                <li>&lt;table border="2"&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th bgcolor="lightgrey"&gt;Item&lt;/th&gt;</li>
+                <li>&lt;th bgcolor="lightgrey"&gt;Qty&lt;/th&gt;</li>
+                <li>&lt;th bgcolor="lightgrey"&gt;@&lt;/th&gt;</li>
+                <li>&lt;th bgcolor="lightgrey"&gt;Price&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Paperclips(box)&lt;/td&gt;</li>
+                <li>&lt;td&gt;100&lt;/td&gt;</li>
+                <li>&lt;td&gt;1.14&lt;/td&gt;</li>
+                <li>&lt;td&gt;115.00&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;Paper(Case)&lt;/td&gt;</li>
+                <li>&lt;td&gt;10&lt;/td&gt;</li>
+                <li>&lt;td&gt;45.99&lt;/td&gt;</li>
+                <li>&lt;td&gt;459.90&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;td&gt;</li>
+                WastePaper&lt;br&gt;</li>
+                baskets
+                <li>&lt;/td&gt;</li>
+                <li>&lt;td&gt;2&lt;/td&gt;</li>
+                <li>&lt;td&gt;17.99&lt;/td&gt;</li>
+                <li>&lt;td&gt;35.98&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th colspan="3" bgcolor="lightgrey"&gt;Subtotal&lt;/th&gt;</li>
+                <li>&lt;td&gt;610.88&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th colspan="2" bgcolor="lightgrey"&gt;Tax&lt;/th&gt;</li>
+                <li>&lt;td&gt;7%&lt;/td&gt;</li>
+                <li>&lt;td&gt;42.76&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th colspan="3" bgcolor="lightgrey"&gt;Total&lt;/th&gt;</li>
+                <li>&lt;td&gt;653.64&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;/table&gt;
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <table border="2">
+                <tr>
+                  <th bgcolor="lightgrey">Item</th>
+                  <th bgcolor="lightgrey">Qty</th>
+                  <th bgcolor="lightgrey">@</th>
+                  <th bgcolor="lightgrey">Price</th>
+                </tr>
+                <tr>
+                  <td>Paperclips(box)</td>
+                  <td>100</td>
+                  <td>1.14</td>
+                  <td>115.00</td>
+                </tr>
+                <tr>
+                  <td>Paper(Case)</td>
+                  <td>10</td>
+                  <td>45.99</td>
+                  <td>459.90</td>
+                </tr>
+                <tr>
+                  <td>
+                    WastePaper<br> baskets
+                  </td>
+                  <td>2</td>
+                  <td>17.99</td>
+                  <td>35.98</td>
+                </tr>
+                <tr>
+                  <th colspan="3" bgcolor="lightgrey">Subtotal</th>
+                  <td>610.88</td>
+                </tr>
+                <tr>
+                  <th colspan="2" bgcolor="lightgrey">Tax</th>
+                  <td>7%</td>
+                  <td>42.76</td>
+                </tr>
+                <tr>
+                  <th colspan="3" bgcolor="lightgrey">Total</th>
+                  <td>653.64</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-12">
+          <h3 class="text-warning">Table Attribute</h3>
+          <ul>
+            <li><b>height-eg.height="20px".</b></li>
+            <li><b>width-</b>width="30px".</li>
+            <li><b>bgcolor-</b>bgcolor="red".</li>
+            <li><b>border-</b>border="5px".</li>
+            <li><b>bordercolor-</b>bordercolor="blue".</li>
+            <li><b>cellpadding-</b>eg.cellpadding="5px".</li>
+            <li><b>cellspacing-</b>eg.cellspacing="5px".</li>
+          </ul>
+          <div class="card mt-5 p-5">
+            <div class="card-header">
+              <h3 class="text-warning">Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;head&gt;</li>
+                <li>&lt;title&gt;&lt;/title&gt;</li>
+                <li>&lt;/head&gt;</li>
+                <li>&lt;body&gt;</li>
+                <li>&lt;table border="2" borderColor="green" height="160px" width="30%"&gt;</li>
+                <li>&lt;tr bgcolor="Orange"&gt;</li>
+                <li>&lt;th&gt;SrNo&lt;/th&gt;</li>
+                <li>&lt;th&gt;Roll No&lt;/th&gt;</li>
+                <li>&lt;th&gt;Name&lt;/th&gt;</li>
+                <li>&lt;th&gt;Team&lt;/th&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th bgcolor="Orange"&gt;1&lt;/th&gt;</li>
+                <li>&lt;td&gt;1001&lt;/td&gt;</li>
+                <li>&lt;td&gt;John&lt;/td&gt;</li>
+                <li>&lt;td&gt;Red&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th bgcolor="Orange"&gt;2&lt;/th&gt;</li>
+                <li>&lt;td&gt;1002&lt;/td&gt;</li>
+                <li>&lt;td&gt;Peter&lt;/td&gt;</li>
+                <li>&lt;td&gt;Green&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+                <li>&lt;tr&gt;</li>
+                <li>&lt;th bgcolor="Orange"&gt;3&lt;/th&gt;</li>
+                <li>&lt;td&gt;1003&lt;/td&gt;</li>
+                <li>&lt;td&gt;Henry&lt;/td&gt;</li>
+                <li>&lt;td&gt;Blue&lt;/td&gt;</li>
+                <li>&lt;/tr&gt;</li>
+
+                <li>&lt;/table&gt;</li>
+</body>
+
+</html>
+</ul>
+</div>
+<div class="card-footer">
+  <h3 class="text-warning">OUTPUT</h3>
+  <table border="2" borderColor="green" height="160px" width="30%">
+    <tr bgcolor="Orange">
+      <th>SrNo.</th>
+      <th>Roll No.</th>
+      <th>Name</th>
+      <th>Team</th>
+    </tr>
+    <tr>
+      <th bgcolor="Orange">1</th>
+      <td>1001</td>
+      <td>John</td>
+      <td>Red</td>
+    </tr>
+    <tr>
+      <th bgcolor="Orange">2</th>
+      <td>1002</td>
+      <td>Peter</td>
+      <td>Green</td>
+    </tr>
+    <tr>
+      <th bgcolor="Orange">3</th>
+      <td>1003</td>
+      <td>Henry</td>
+      <td>Blue</td>
+    </tr>
+
+  </table>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-12 p-3">
+  <h3>Cellpadding</h3>
+  <div class="card mt-5 p-5">
+    <div class="card-header">
+      <h3 class="text-warning">Example 2</h3>
+    </div>
+    <div class="card-body bg-dark text-light">
+      <ul type="none">
+        <li>&lt;!DOCTYPE html&gt;</li>
+        <li>&lt;html&gt;</li>
+        <li>&lt;head&gt;</li>
+        <li>&lt;title&gt;&lt;/title&gt;</li>
+        <li>&lt;/head&gt;</li>
+        <li>&lt;body&gt;</li>
+        <li>&lt;table border="2" borderColor="green" height="160px" width="30%" cellpadding="10px"&gt;</li>
+        <li>&lt;tr bgcolor="Orange"&gt;</li>
+        <li>&lt;th&gt;SrNo.&lt;/th&gt;</li>
+        <li>&lt;th&gt;Roll No.&lt;/th&gt;</li>
+        <li>&lt;th&gt;Name&lt;/th&gt;</li>
+        <li>&lt;th&gt;Team&lt;/th&gt;</li>
+        <li>&lt;/tr&gt;</li>
+        <li>&lt;tr&gt;</li>
+        <li>&lt;th bgcolor="Orange"&gt;1&lt;/th&gt;</li>
+        <li>&lt;td&gt;1001&lt;/td&gt;</li>
+        <li>&lt;td&gt;John&lt;/td&gt;</li>
+        <li>&lt;td&gt;Red&lt;/td&gt;</li>
+        <li>&lt;/tr&gt;</li>
+        <li>&lt;tr&gt;</li>
+        <li>&lt;th bgcolor="Orange"&gt;2&lt;/th&gt;</li>
+        <li>&lt;td&gt;1002&lt;/td&gt;</li>
+        <li>&lt;td&gt;Peter&lt;/td&gt;</li>
+        <li>&lt;td&gt;Green&lt;/td&gt;</li>
+        <li>&lt;/tr&gt;</li>
+        <li>&lt;tr&gt;</li>
+        <li>&lt;th bgcolor="Orange"&gt;3&lt;/th&gt;</li>
+        <li>&lt;td&gt;1003&lt;/td&gt;</li>
+        <li>&lt;td&gt;Henry&lt;/td&gt;</li>
+        <li>&lt;td&gt;Blue&lt;/td&gt;</li>
+        <li>&lt;/tr&gt;</li>
+
+        <li>&lt;/table&gt;</li>
+        <li>&lt;/body&gt;</li>
+        <li>&lt;/html&gt;</li>
+      </ul>
+    </div>
+    <div class="card-footer">
+      <h3 class="text-warning">OUTPUT</h3>
+      <table border="2" borderColor="green" height="160px" width="30%" cellpadding="10px">
+      <tr bgcolor="Orange">
+      <th>SrNo.</th>
+      <th>Roll No.</th>
+      <th>Name</th>
+      <th>Team</th>
+      </tr>
+      <tr>
+      <th bgcolor="Orange">1</th>
+      <td>1001</td>
+      <td>John</td>
+      <td>Red</td>
+      </tr>
+      <tr>
+      <th bgcolor="Orange">2</th>
+      <td>1002</td>
+      <td>Peter</td>
+      <td>Green</td>
+      </tr>
+      <tr>
+      <th bgcolor="Orange">3</th>
+      <td>1003</td>
+      <td>Henry</td>
+      <td>Blue</td>
+      </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+</div>
+</div>
+</section>
+</body>
+
+</html>

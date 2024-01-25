@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>block & inline</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--
+nav bar-->
+  <section>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+      <!-- Brand -->
+      <a class="navbar-brand" href="../index.html"><img src="../images/ACB1.PNG" height="" width="60px">AAPKA CODING
+        BOY</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">ABOUT</a>
+          </li>
+          <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#"> Tutorial
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a href="#" class="nav-link"> HTML </a></li>
+              <li><a href="#" class="nav-link"> CSS </a></li>
+              <li><a href="#" class="nav-link"> BOOSTRAP </a></li>
+            </ul>
+            <!-- <li class="nav-item">
+        <a class="nav-link" href="gallary.html">GALLARY</a>
+      </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="../myteam.html">MY TEAM</a>
+          </li>
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 services.html">SERVICES</a>
+      </li> -->
+          <!-- <li class="nav-item">
+      <a class="nav-link" href="bootsrap web site 1 contact us.html">CONTACT US</a>
+      </li> -->
+        </ul>
+        <!--  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn d-block btn-success d-md-none mt-2" type="submit">Search</button>
+    <button class="btn btn-success d-md-block d-none" type="submit">Search</button>
+    </form> -->
+      </div>
+    </nav>
+  </section>
+  <!--
+end nav bar-->
+
+  <section>
+    <div class="container-fluid mt-5">
+      <div class="row mt-5">
+        <div class="col-md-12 col-12 p-2 mt-5 fixed-top text-center">
+          <a href="html_style.html"><button type="button" class="btn btn-success">Previous</button></a>
+          <button type="button" class="btn btn-primary dropdown-toggle m-2" data-toggle="dropdown">
+            HTML
+          </button>
+          <a href="html_css.html"><button type="button" class="btn btn-success">Next</button></a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../htmlindex.html">HTML About</a>
+            <a class="dropdown-item" href="html_basictags.html">HTML Basic Tags</a>
+          </div>
+        </div>
+        <div class="col-md-12 col-12 border mt-5">
+          <h3>HTML Block and Inline Elements</h3>
+          <p>Every HTML element has a default display value, depending on what type of element it is.</p>
+          <p>There are two display values: block and inline.</p>
+        </div>
+        <div class="col-md-12 col-12 border mt-3">
+          <h3 class="text-warning">Block-level Elements</h3>
+          <p>A block-level element always starts on a new line, and the browsers automatically add some space (a margin)
+            before and after the element.</p>
+          <p>A block-level element always takes up the full width available (stretches out to the left and right as far
+            as it can).</p>
+          <p>Two commonly used block elements are: &lt;p&gt; and &lt;div&gt;.</p>
+          <p>The &lt;p&gt; element defines a paragraph in an HTML document.</p>
+          <p>The &lt;div&gt; element defines a division or a section in an HTML document.</p>
+          <p style="border:1px solid black;">The &lt;p&gt; element is a block-level element.</p>
+          <p style="border:1px solid black;">The &lt;div&gt; element is a block-level element.</p>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-warning">Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p style="border: 1px solid black"&gt;Hello World&lt;/p&gt;</li>
+                <li>&lt;div style="border: 1px solid black"&gt;Hello World&lt;/div&gt;</li>
+
+                <li>&lt;p&gt;The P and the DIV elements are both block elements, and they will always start on a new
+                  line and take up the full width available (stretches out to the left and right as far as it
+                  can).&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <p style="border: 1px solid black">Hello World</p>
+              <div style="border: 1px solid black">Hello World</div>
+
+              <p>The P and the DIV elements are both block elements, and they will always start on a new line and take
+                up the full width available (stretches out to the left and right as far as it can).</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <p>Here are the block-level elements in HTML:</p>
+          <table>
+            <tr>
+              <td><a href="#">&lt;address&gt;</a></td>
+              <td><a href="#">&lt;article&gt;</a></td>
+              <td><a href="#">&lt;aside&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;blockquote&gt;</a></td>
+              <td><a href="#">&lt;canvas&gt;</a></td>
+              <td><a href="#">&lt;dd&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;div&gt;</a></td>
+              <td><a href="#">&lt;dt&gt;</a></td>
+              <td><a href="#">&lt;dl&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;fieldset&gt;</a></td>
+              <td><a href="#">&lt;figcaption&gt;</a></td>
+              <td><a href="#">&lt;figure&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;footer&gt;</a></td>
+              <td><a href="#">&lt;form&gt;</a></td>
+              <td><a href="#">&lt;h1&gt;-&lt;h6&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;feader&gt;</a></td>
+              <td><a href="#">&lt;hr&gt;</a></td>
+              <td><a href="#">&lt;li&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;main&gt;</a></td>
+              <td><a href="#">&lt;nav&gt;</a></td>
+              <td><a href="#">&lt;noscript&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;ol&gt;</a></td>
+              <td><a href="#">&lt;p&gt;</a></td>
+              <td><a href="#">&lt;pre&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;section&gt;</a></td>
+              <td><a href="#">&lt;table&gt;</a></td>
+              <td><a href="#">&lt;tfoot&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;ul&gt;</a></td>
+              <td><a href="#">&lt;video&gt;</a></td>
+
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3>Inline Elements</h3>
+          <p>An inline element does not start on a new line.</p>
+          <p>An inline element only takes up as much width as necessary.</p>
+          <p>This is a &lt;span&gt; element inside a paragraph.</p>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="text-warning">Example</h3>
+            </div>
+            <div class="card-body bg-dark text-light">
+              <ul type="none">
+                <li>&lt;!DOCTYPE html&gt;</li>
+                <li>&lt;html&gt;</li>
+                <li>&lt;body&gt;</li>
+
+                <li>&lt;p&gt;This is an inline span &lt;span style="border: 1px solid black"&gt;Hello World&lt;/span&gt;
+                  element inside a paragraph.&lt;/p&gt;</li>
+
+                <li>&lt;p&gt;The SPAN element is an inline element, and will not start on a new line and only takes up
+                  as much width as necessary.&lt;/p&gt;</li>
+
+                <li>&lt;/body&gt;</li>
+                <li>&lt;/html&gt;</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <h3 class="text-warning">OUTPUT</h3>
+              <p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a
+                paragraph.</p>
+
+              <p>The SPAN element is an inline element, and will not start on a new line and only takes up as much width
+                as necessary.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <p>Here are the inline elements in HTML:</p>
+          <table width="300px">
+            <tr>
+              <td><a href="#">&lt;a&gt;</a></td>
+              <td><a href="#">&lt;abbr&gt;</a></td>
+              <td><a href="#">&lt;acronym&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;b&gt;</a></td>
+              <td><a href="#">&lt;bdo&gt;</a></td>
+              <td><a href="#">&lt;big&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;br&gt;</a></td>
+              <td><a href="#">&lt;button&gt;</a></td>
+              <td><a href="#">&lt;cite&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;code&gt;</a></td>
+              <td><a href="#">&lt;dfn&gt;</a></td>
+              <td><a href="#">&lt;em&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;i&gt;</a></td>
+              <td><a href="#">&lt;img&gt;</a></td>
+              <td><a href="#">&lt;input&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;kbd&gt;</a></td>
+              <td><a href="#">&lt;label&gt;</a></td>
+              <td><a href="#">&lt;map&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;object&gt;</a></td>
+              <td><a href="#">&lt;output&gt;</a></td>
+              <td><a href="#">&lt;q&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;samp&gt;</a></td>
+              <td><a href="#">&lt;script&gt;</a></td>
+              <td><a href="#">&lt;select&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;small&gt;</a></td>
+              <td><a href="#">&lt;span&gt;</a></td>
+              <td><a href="#">&lt;strong&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;sub&gt;</a></td>
+              <td><a href="#">&lt;textarea&gt;</a></td>
+              <td><a href="#">&lt;time&gt;</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">&lt;tt&gt;</a></td>
+              <td><a href="#">&lt;var&gt;</a></td>
+            </tr>
+
+
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3>The &lt;div&gt; Element</h3>
+          <p>The &lt;div&gt; element is often used as a container for other HTML elements.</p>
+
+          <p>The &lt;div&gt; element has no required attributes, but style, class and id are common.</p>
+
+          <p>When used together with CSS, the &lt;div&gt; element can be used to style blocks of content:</p>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+          <div class="card-header">
+            <h3 class="text-warning">Example</h3>
+          </div>
+          <div class="card-body bg-dark text-light">
+            <ul type="none">
+            <li>&lt;!DOCTYPE html&gt;</li>
+            <li>&lt;html&gt;</li>
+            <li>&lt;body&gt;</li>
+
+            <li>&lt;div style="background-color:black;color:white;padding:20px;"&gt;</li>
+              <li>&lt;h2&gt;London&lt;/h2&gt;</li>
+              <li>&lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.&lt;/p&gt;</li>
+              <li>&lt;p&gt;Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.&lt;/p&gt;</li>
+            <li>&lt;/div&gt;</li>
+
+            <li>&lt;/body&gt;</li>
+            <li>&lt;/html&gt;</li>
+          </ul>
+          </div>
+          <div class="card-footer">
+            <h3 class="text-warning">OUTPUT</h3>
+            <div style="background-color:black;color:white;padding:20px;">
+            <h2>London</h2>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+          </div> 
+          </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-12">
+          <h3>The &lt;span&gt; Element</h3>
+          <p>The &lt;span&gt; element is an inline container used to mark up a part of a text, or a part of a document.</p>
+
+            <p>The &lt;span&gt; element has no required attributes, but style, class and id are common.</p>
+
+            <p>When used together with CSS, the &lt;span&gt; element can be used to style parts of the text:</p>
+        </div>
+        <div class="col-md-12 col-12">
+          <div class="card">
+          <div class="card-header">
+            <h3 class="text-warning">Example</h3>
+          </div>
+          <div class="card-body bg-dark text-light">
+            <ul type="none">
+            <li>&lt;!DOCTYPE html&gt;</li>
+            <li>&lt;html&gt;</li>
+            <li>&lt;body&gt;</li>
+
+            <li>&lt;h1>The span element&lt;/h1&gt;</li>
+
+              <li>&lt;p&gt;My mother has &lt;span style="color:blue;font-weight:bold;"&gt;blue&lt;/span&gt; eyes and my father has &lt;span style="color:darkolivegreen;font-weight:bold;"&gt;dark green&lt;/span&gt; eyes.&lt;/p&gt;</li>
+
+            <li>&lt;/body&gt;</li>
+            <li>&lt;/html&gt;</li>
+          </ul>
+          </div>
+          <div class="card-footer">
+            <h3 class="text-warning">OUTPUT</h3>
+            <h1>The span element</h1>
+            <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+          </div> 
+          </div>
+          </div>
+          <div class="col-md-12 col-12">
+            <h3>Chapter Summary</h3>
+            <ul>
+              <li>There are two display values: block and inline</li>
+              <li>A block-level element always starts on a new line and takes up the full width available</li>
+              <li>An inline element does not start on a new line and it only takes up as much width as necessary</li>
+              <li>The &lt;div&gt; element is a block-level and is often</li>
+              <li>The &lt;span&gt; element is an inline container used to mark up a part of a text, or a part of a document</li>
+            </ul>
+          </div>
+
+
+
+      </div>
+    </div>
+  </section>
